@@ -776,7 +776,8 @@ body {
 }
 
 .modal-checkbox:focus + .modal-checkbox-text span {
-  border: 2.5px solid var(--hover-color);
+  fill: rgba(117, 117, 117, 0.5);
+  border: 1.25px solid var(--hover-color);
 }
 
 .modal-checkbox-text {
