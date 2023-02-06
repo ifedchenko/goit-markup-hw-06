@@ -710,6 +710,7 @@ body {
 }
 
 .form-input-comment {
+  display: block;
   resize: none;
   height: 118px;
   width: 100%;
@@ -780,7 +781,7 @@ body {
 
 .modal-checkbox-text {
   display: flex;
-  margin-top: 12px;
+  margin-top: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
