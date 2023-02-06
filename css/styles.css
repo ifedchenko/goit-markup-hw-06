@@ -769,7 +769,7 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox:focus + .modal-checkbox-text span {
+.modal-checkbox:focus:not(:checked) + .modal-checkbox-text span {
   fill: rgba(117, 117, 117, 0.5);
   border: 1.25px solid var(--hover-color);
 }
